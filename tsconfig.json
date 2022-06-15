@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES2018",
+        "sourceRoot": "",
+        "outDir": "out",
+        "moduleResolution": "node",
+        "types": [ "node", "@ancient-legion/mod-api" ],
+        "experimentalDecorators": true,
+        "noImplicitAny": false,
+        "allowJs": true,
+        "inlineSourceMap": false,
+        "sourceMap": true
+    },
+    "compileOnSave": true,
+    "include": [
+        "src/**/*.ts",
+    ],
+    "exclude": [
+        "out/**/*"
+    ]
+}
